@@ -28,10 +28,11 @@ void setHonk(String h){
     return honk;
   }
 
-  Car(String m, String b, String h){
-  brand = "BMV";
-  model = "model1";
-  honk = "honk";
+  Car(String brand, String model, String honk){
+
+  setBrand("BMW");
+  setModel("model1");
+  setHonk("dyt");
 
 }
 
